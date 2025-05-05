@@ -1,0 +1,128 @@
+body {
+    font-family: Overpass, sans-serif;
+    font-weight: 400, 700;
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+    user-select: none;;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: hsl(212, 30%, 18%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    justify-content: center;
+    padding: 30px;
+    border-radius: 50px;
+    width: 350px;
+    height: 300x;
+}
+
+h2 {
+    text-align: left;
+    color: hsl(0, 100%, 100%);
+    width: 100%;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+}
+
+#ratingButtons {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.ratingButton {
+    background-color: hsl(210, 14%, 20%);
+    color: hsl(217, 12%, 63%);
+    border: 10px solid hsl(210, 14%, 20%);
+    border-radius: 50px;
+    padding: 13px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all 0.3s ease;
+}
+
+.ratingButton:hover {
+    background-color: hsl(25, 97%, 53%);
+    border-color: hsl(25, 97%, 53%);
+}
+
+.ratingButton.active {
+    background-color: hsl(0, 100%, 100%);
+    border-color: hsl(0, 100%, 100%);
+}
+
+.ratingButton:active {
+    background-color: hsl(0, 100%, 100%);
+    border-color: hsl(0, 100%, 100%);
+}
+
+#submit:hover {
+    background-color: hsl(0, 100%, 100%);
+}
+
+#starImg {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.star {
+    text-align: left;
+    border: 10px solid hsla(0, 0%, 6%, 0.288);
+    background-color: hsla(213, 20%, 18%, 0.336);
+    border-radius: 50px;
+    float: left;
+}
+
+#submitButton {
+    width: 100%;
+    text-align: center;
+}
+
+#submit {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    padding: 13px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+#thankYouCard {
+    text-align: center;
+    display: none;
+}
+
+#ratingText {
+    color: hsl(25, 97%, 53%);
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    text-align: center;
+    border: 5px solid hsl(213, 19%, 22%);
+    background-color: hsl(213, 19%, 22%);
+    border-radius: 50px;;
+}
