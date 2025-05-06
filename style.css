@@ -26,6 +26,7 @@ body {
     border-radius: 50px;
     width: 350px;
     height: 300x;
+    background: radial-gradient(circle at top center, hsl(213, 20%, 18%) 0%, hsl(213, 10%, 18%) 50%, hsl(212, 30%, 18%) 100%);
 }
 
 h2 {
@@ -49,7 +50,7 @@ p {
     color: hsl(217, 12%, 63%);
     border: 10px solid hsl(210, 14%, 20%);
     border-radius: 50px;
-    padding: 13px;
+    padding: 8px 12px;
     font-size: 15px;
     cursor: pointer;
     margin-left: 5px;
